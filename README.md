@@ -1,39 +1,67 @@
 # Sagnik Datta
 
-CS undergrad at VIT Vellore focused on backend systems, desktop tooling, and local AI workflows. Most of my work revolves around building real-time apps with WebSockets, exploring concurrency at the OS level, and running local models on consumer hardware.
+**Software Engineer & CS Undergrad @ VIT Vellore**  
+Focused on distributed backend architectures, desktop systems tooling, and local AI workflows.
 
-[LinkedIn](https://www.linkedin.com/in/sagnik-dattta-coder/) &nbsp;&bull;&nbsp; [Portfolio](https://sagnikdatta.netlify.app/) &nbsp;&bull;&nbsp; [Twitter / X](https://x.com/sagn1k_datta) &nbsp;&bull;&nbsp; [Email](mailto:sagnik.datta111@gmail.com)
-
----
-
-### Projects & Systems
-
-* **[TidyFS](https://github.com/armoredglock/tidyfs)** *(TypeScript, Node.js)*  
-  A desktop file organizer built for real-world clutter. Instead of running destructive cleanup scripts, it tracks every operation so you can roll back changes atomically with a single click.
-
-* **[Cognify LMS](https://github.com/armoredglock/cognify-lms)** *(React, TypeScript, Django REST Framework, PostgreSQL)*  
-  Full-stack learning management platform. Built with strict API contracts, documented system architecture, and clean separation between client state and relational data models.
-
-* **[Noto.ai](https://github.com/armoredglock/noto-ai-app)** *(Python, Kivy, LLaMA 3 via Ollama)*  
-  A private, offline desktop PDF assistant. Lets you chat with and extract summaries from documents locally so sensitive files never leave your machine.
-
-* **[Caseprint](https://github.com/armoredglock/Caseprint---Multiplayer-murder-mystery-game)** *(JavaScript, Node.js, Socket.io)*  
-  Real-time cooperative murder mystery game. Synchronizes game state, evidence dossiers, and suspect interrogation timelines across all connected players via WebSockets.
-
-* **[Multicore Concurrency Analysis](https://github.com/armoredglock/multicore-os-concurrency)** *(Python, C, Multiprocessing)*  
-  Empirical benchmarking of race conditions, hardware lock contention, and synchronization primitives across multicore architectures.
-
-* **[SaaS Event Backend](https://github.com/armoredglock/saas-event-backend)** *(TypeScript, Node.js, WebSockets)*  
-  Multi-tenant event and ticketing backend built to handle tenant isolation and real-time state distribution.
+[Portfolio](https://sagnikdatta.netlify.app/) &nbsp;&bull;&nbsp; [LinkedIn](https://www.linkedin.com/in/sagnik-dattta-coder/) &nbsp;&bull;&nbsp; [Twitter / X](https://x.com/sagn1k_datta) &nbsp;&bull;&nbsp; [Email](mailto:sagnik.datta111@gmail.com)
 
 ---
 
-### Technologies
+### Engineering Principles
 
-* **Languages:** TypeScript, JavaScript, Python, C/C++, SQL
-* **Backend:** Node.js, Express, Django REST Framework, FastAPI, WebSockets (Socket.io)
-* **Databases & Tools:** PostgreSQL, MongoDB, SQLite, Docker, Git, Linux
-* **Frontend & UI:** React, Vite, Tailwind CSS, Kivy (Desktop)
+* **Safe by default** — Destructive operations must be auditable. In [TidyFS](https://github.com/armoredglock/tidyfs), every automated file operation is backed by an atomic transaction log with instant one-click rollback.
+* **Local-first AI** — High-utility intelligence doesn't always need cloud subscriptions or latency. In [Noto.ai](https://github.com/armoredglock/noto-ai-app), documents are vectorized and interrogated entirely on-device via Ollama and LLaMA 3.
+* **Contract-driven backends** — Clear separation between presentation, application logic, and storage. In [Cognify LMS](https://github.com/armoredglock/cognify-lms), strict API contracts and normalized relational schemas govern data flow.
+* **Measure, don't guess** — Concurrency issues require empirical proof. In [multicore-os-concurrency](https://github.com/armoredglock/multicore-os-concurrency), synchronization primitives and lock contention are benchmarked directly against multi-core CPU architectures.
+
+---
+
+### Selected Systems & Projects
+
+#### 1. [TidyFS — Desktop File Organism with Rollback Safety](https://github.com/armoredglock/tidyfs)
+*Cross-platform desktop application &bull; TypeScript, Node.js, FileSystem API*
+* Systematically audits unmanaged directories, decays obsolete installer payloads, and isolates duplicate clutter.
+* Solves the biggest fear with cleanup scripts by guaranteeing **atomic rollback safety**—if a file was moved by mistake, one click reverts the exact filesystem state.
+
+#### 2. [Cognify LMS — AI-Assisted Learning Platform](https://github.com/armoredglock/cognify-lms)
+*Full-stack education system &bull; React, TypeScript, Vite, Django REST Framework, PostgreSQL*
+* Engineered with full architecture documentation, strictly typed `/api/v1/` REST specifications, and normalized database constraints.
+* Integrates AI-powered study assistance while maintaining predictable backend performance and zero unnecessary runtime dependencies.
+
+#### 3. [Noto.ai — Private On-Device PDF Assistant](https://github.com/armoredglock/noto-ai-app)
+*Desktop research tool &bull; Python, Kivy, LLaMA 3 via Ollama*
+* Designed for privacy-conscious researchers and students needing instant synthesis of complex technical documents without transmitting data to third-party APIs.
+* Native desktop interface with fast token generation and conversational context retention.
+
+#### 4. [Caseprint — Real-Time Multiplayer Detective Simulation](https://github.com/armoredglock/Caseprint---Multiplayer-murder-mystery-game)
+*Cooperative game engine &bull; JavaScript, Node.js, Socket.io, Express*
+* Synchronizes live game rooms, player roles, evidence dossiers, and forensic timelines over low-latency WebSockets.
+* Handles concurrent player state updates, dynamic procedural avatar generation, and live verdict voting.
+
+#### 5. [Multicore OS Concurrency & Synchronization Benchmarks](https://github.com/armoredglock/multicore-os-concurrency)
+*Systems research & laboratory suite &bull; Python, C, Multiprocessing*
+* Empirical analysis of race conditions, hardware lock contention, atomic operations, and cache effects across multicore processors.
+* Includes automated CI workflows and reproducible test harnesses for operating system concurrency primitives.
+
+---
+
+### Interactive Experience
+
+I built a fully functional **Windows 98 retro desktop** in the browser—complete with draggable windows, retro apps, audio effects, and CRT simulation:
+
+👉 **[Boot into the Win98 Portfolio &rarr;](https://sagnikdatta.netlify.app/)**
+
+---
+
+### Technical Toolbox
+
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | TypeScript, JavaScript (ES6+), Python, C / C++, SQL |
+| **Backend & Distributed** | Node.js, Express, Django REST Framework, FastAPI, WebSockets (Socket.io), RESTful APIs |
+| **Databases & Storage** | PostgreSQL, MongoDB, SQLite, Redis fundamentals |
+| **Frontend & Desktop** | React, Vite, Tailwind CSS, Electron, Kivy |
+| **DevOps & Tooling** | Linux / Bash, Docker, Git, GitHub Actions, Postman |
 
 ---
 
