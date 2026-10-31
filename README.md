@@ -6,7 +6,7 @@
 
   <p>
     <a href="https://sagnikdatta.netlify.app/"><img src="https://img.shields.io/badge/Live_Portfolio-0d1117?style=flat-square&logo=googlechrome&logoColor=58a6ff" alt="Portfolio" /></a>
-    <a href="https://www.linkedin.com/in/sagnik-dattta-coder/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=58a6ff" alt="LinkedIn" /></a>
+    <a href="https://www.linkedin.com/in/sagnik-dattta-coder/"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=data%3Aimage/svg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzU4YTZmZiI%2BPHBhdGggZD0iTTE5IDBoLTE0Yy0yLjc2MSAwLTUgMi4yMzktNSA1djE0YzAgMi43NjEgMi4yMzkgNSA1IDVoMTRjMi43NjIgMCA1LTIuMjM5IDUtNXYtMTRjMC0yLjc2MS0yLjIzOC01LTUtNXptLTExIDE5aC0zdi0xMWgzdjExem0tMS41LTEyLjI2OGMtLjk2NiAwLTEuNzUtLjc5LTEuNzUtMS43NjRzLjc4NC0xLjc2NCAxLjc1LTEuNzY0IDEuNzUuNzkgMS43NSAxLjc2NC0uNzgzIDEuNzY0LTEuNzUgMS43NjR6bTEzLjUgMTIuMjY4aC0zdi01LjYwNGMwLTMuMzY4LTQtMy4xMTMtNCAwdjUuNjA0aC0zdi0xMWgzdjEuNzY1YzEuMzk2LTIuNTg2IDctMi43NzcgNyAyLjQ3NnY2Ljc1OXoiLz48L3N2Zz4%3D" alt="LinkedIn" /></a>
     <a href="https://x.com/sagn1k_datta"><img src="https://img.shields.io/badge/Twitter_%2F_X-0d1117?style=flat-square&logo=x&logoColor=58a6ff" alt="Twitter" /></a>
     <a href="mailto:sagnik.datta111@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=58a6ff" alt="Email" /></a>
     <img src="https://komarev.com/ghpvc/?username=armoredglock&color=58a6ff&style=flat-square&label=VIEWS" alt="Profile Views" />
