@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=180&section=header&text=Sagnik%20Datta&fontSize=50&fontAlignY=38&desc=Full-Stack%20%26%20Systems%20Engineer%20%7C%20VIT%20Vellore&descAlignY=62&fontColor=58a6ff&descColor=8b949e" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=180&section=header&text=Sagnik%20Datta&fontSize=50&fontAlignY=38&desc=Full-Stack%20%26%20Systems%20Engineer%20%7C%20VIT%20Vellore&descAlignY=62&fontColor=58a6ff&descColor=8b949e" width="100%" alt="Sagnik Datta" />
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=Building+distributed+backends+%26+real-time+apps;Desktop+tooling+with+atomic+rollback+safety;Running+local+LLMs+offline+on-device;Empirical+multicore+concurrency+research" alt="Typing SVG" />
 
@@ -14,7 +14,17 @@
 
 ---
 
-### 💻 Technologies & Stack
+### 👋 Hey there!
+
+I'm **Sagnik** -- a CS undergrad at **VIT Vellore**.
+
+Most days, I'm either untangling race conditions in OS labs, building desktop tools that don't hog your RAM, or trying to run open-weight language models locally on consumer hardware without setting my laptop on fire.
+
+I like building things that feel snappy, respect user privacy, and have real engineering rigor under the hood.
+
+---
+
+### 🛠️ What I Work With
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,py,c,cpp,postgres,mongodb,redis&theme=dark" /><br/>
@@ -23,53 +33,50 @@
 
 ---
 
-### ⚡ Engineering Principles
+### 🧪 Selected Things I've Built
 
-* **Safe by default** -- Destructive operations must be auditable. In [TidyFS](https://github.com/armoredglock/tidyfs), every automated file operation is backed by an atomic transaction log with instant one-click rollback.
-* **Local-first AI** -- High-utility intelligence doesn't always need cloud subscriptions or latency. In [Noto.ai](https://github.com/armoredglock/noto-ai-app), documents are vectorized and interrogated entirely on-device via Ollama and LLaMA 3.
-* **Contract-driven backends** -- Clear separation between presentation, application logic, and storage. In [Cognify LMS](https://github.com/armoredglock/cognify-lms), strict API contracts and normalized relational schemas govern data flow.
-* **Measure, don't guess** -- Concurrency issues require empirical proof. In [multicore-os-concurrency](https://github.com/armoredglock/multicore-os-concurrency), synchronization primitives and lock contention are benchmarked directly against multi-core CPU architectures.
+#### 📂 [TidyFS -- Self-Cleaning File Organism with Rollback](https://github.com/armoredglock/tidyfs)
+> *Because Downloads folders shouldn't be 50GB graveyards of forgotten `.exe` files.*
+* **The Problem:** Everyone writes cleanup scripts, but nobody trusts them because one false regex wipe and your important files are gone forever.
+* **The Fix:** Built a cross-platform desktop engine (TypeScript + Electron) that categorizes unmanaged folders and decays stale installers, but backs every move with an **atomic transaction ledger**--so a single click reverts your filesystem to the exact state it was before.
 
----
+#### 🧠 [Noto.ai -- 100% Offline AI Research Companion](https://github.com/armoredglock/noto-ai-app)
+> *Chat with your research papers without sending your private notes to the cloud.*
+* **The Problem:** Cloud PDF summarizers require paid subscriptions, have document size limits, and store your proprietary notes on remote servers.
+* **The Fix:** A lightweight desktop GUI (Python + Kivy) wired to local **LLaMA 3 via Ollama**. It reads, indexes, and answers questions on technical documents completely on-device. Zero network requests, zero monthly subscriptions.
 
-### 🚀 Selected Systems & Projects
+#### 🕵️ [Caseprint -- Real-Time Multiplayer Detective Sim](https://github.com/armoredglock/Caseprint---Multiplayer-murder-mystery-game)
+> *A cooperative murder mystery game engine built for game night.*
+* **The Problem:** Turning a static deductive mystery into a live, collaborative tabletop experience on the web.
+* **The Fix:** Powered by **Node.js & Socket.io**, Caseprint synchronizes evidence boards, suspect interrogations, and interactive voting across all connected players with low-latency WebSocket rooms.
 
-#### 1. [TidyFS -- Desktop File Organism with Rollback Safety](https://github.com/armoredglock/tidyfs)
-`TypeScript` &bull; `Node.js` &bull; `FileSystem API` &bull; `Electron`
-* Systematically audits unmanaged directories, decays obsolete installer payloads, and isolates duplicate clutter.
-* Solves the biggest fear with cleanup scripts by guaranteeing **atomic rollback safety**--if a file was moved by mistake, one click reverts the exact filesystem state.
+#### ⚡ [Multicore Concurrency & Lock Contention Benchmarks](https://github.com/armoredglock/multicore-os-concurrency)
+> *Empirical proof that naive multithreading can actually make your code slower.*
+* **The Experiment:** Benchmarked mutex locks, atomic operations, and synchronization barriers across CPU cores to observe real-world hardware cache bouncing and lock convoying.
+* **The Takeaway:** Built automated CI test harnesses and reproduction scripts for OS laboratory coursework (BCSE303L).
 
-#### 2. [Cognify LMS -- AI-Assisted Learning Platform](https://github.com/armoredglock/cognify-lms)
-`React` &bull; `TypeScript` &bull; `Vite` &bull; `Django REST Framework` &bull; `PostgreSQL`
-* Engineered with full architecture documentation, strictly typed `/api/v1/` REST specifications, and normalized database constraints.
-* Integrates AI-powered study assistance while maintaining predictable backend performance and zero unnecessary runtime dependencies.
-
-#### 3. [Noto.ai -- Private On-Device PDF Assistant](https://github.com/armoredglock/noto-ai-app)
-`Python` &bull; `Kivy` &bull; `LLaMA 3 via Ollama` &bull; `Local AI`
-* Designed for privacy-conscious researchers and students needing instant synthesis of complex technical documents without transmitting data to third-party APIs.
-* Native desktop interface with fast token generation and conversational context retention.
-
-#### 4. [Caseprint -- Real-Time Multiplayer Detective Simulation](https://github.com/armoredglock/Caseprint---Multiplayer-murder-mystery-game)
-`JavaScript` &bull; `Node.js` &bull; `Socket.io` &bull; `Express`
-* Synchronizes live game rooms, player roles, evidence dossiers, and forensic timelines over low-latency WebSockets.
-* Handles concurrent player state updates, dynamic procedural avatar generation, and live verdict voting.
-
-#### 5. [Multicore OS Concurrency & Synchronization Benchmarks](https://github.com/armoredglock/multicore-os-concurrency)
-`Python` &bull; `C` &bull; `Multiprocessing` &bull; `Systems Lab`
-* Empirical analysis of race conditions, hardware lock contention, atomic operations, and cache effects across multicore processors.
-* Includes automated CI workflows and reproducible test harnesses for operating system concurrency primitives.
+#### 🎓 [Cognify LMS -- AI-Assisted Learning Platform](https://github.com/armoredglock/cognify-lms)
+> *A full-stack LMS where architecture and API contracts come first.*
+* **The Architecture:** Strict REST contracts (`/api/v1/`) with normalized PostgreSQL models on a Django backend, consumed by a type-safe React + Tailwind frontend. Clean separation of concerns with zero unnecessary microservice bloat.
 
 ---
 
-### 🕹️ Interactive Web Experience
+### 💾 The Nostalgia Project
 
-I engineered a fully functional **Windows 98 desktop environment** in the browser--featuring draggable windows, retro applications, audio synthesis, and real-time CRT scanlines:
+Ever wonder what modern web apps would feel like on a retro 90s PC? I spent weeks handcrafting an authentic **Windows 98 operating system simulation** in the browser--complete with classic 98.css, draggable windows, minesweeper, sound effects, and retro CRT scanlines:
 
-👉 **[Launch the Windows 98 Portfolio &rarr;](https://sagnikdatta.netlify.app/)**
+🖥️ **[Take it for a spin at sagnikdatta.netlify.app &rarr;](https://sagnikdatta.netlify.app/)**
 
 ---
 
-### 📊 Contribution Telemetry
+### 💬 Let's Connect
+
+* 💼 **LinkedIn:** [linkedin.com/in/sagnik-dattta-coder](https://www.linkedin.com/in/sagnik-dattta-coder/)
+* 🌐 **Portfolio:** [sagnikdatta.netlify.app](https://sagnikdatta.netlify.app/)
+* 🐦 **Twitter / X:** [@sagn1k_datta](https://x.com/sagn1k_datta)
+* 📬 **Email:** [sagnik.datta111@gmail.com](mailto:sagnik.datta111@gmail.com)
+
+---
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=armoredglock&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="Contribution Streak" />
