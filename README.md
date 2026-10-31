@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=180&section=header&text=Sagnik%20Datta&fontSize=50&fontAlignY=38&desc=Full-Stack%20%26%20Systems%20Engineer%20%7C%20VIT%20Vellore&descAlignY=62&fontColor=58a6ff&descColor=8b949e" width="100%" alt="Sagnik Datta" />
+  <h1>Sagnik Datta</h1>
+  <p><strong>Software Engineer &bull; CS Undergrad @ VIT Vellore</strong></p>
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=560&lines=Building+distributed+backends+%26+real-time+apps;Desktop+tooling+with+atomic+rollback+safety;Running+local+LLMs+offline+on-device;Empirical+multicore+concurrency+research" alt="Typing SVG" />
 
