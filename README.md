@@ -2,28 +2,28 @@
 
 CS undergrad at VIT Vellore focused on backend systems, desktop tooling, and local AI workflows. Most of my work revolves around building real-time apps with WebSockets, exploring concurrency at the OS level, and running local models on consumer hardware.
 
-[LinkedIn](https://www.linkedin.com/in/sagnik-dattta-coder/) &nbsp;•&nbsp; [Win98 Portfolio](https://sagnikdatta2k6.github.io/WIN98-PORTFOLIO/) &nbsp;•&nbsp; [Twitter / X](https://x.com/sagn1k_datta) &nbsp;•&nbsp; [Email](mailto:sagnik.datta111@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/sagnik-dattta-coder/) · [Win98 Portfolio](https://sagnikdatta2k6.github.io/WIN98-PORTFOLIO/) · [Twitter / X](https://x.com/sagn1k_datta) · [Email](mailto:sagnik.datta111@gmail.com)
 
 ---
 
 ### Projects & Systems
 
-* **[TidyFS](https://github.com/armoredglock/tidyfs)** &nbsp;*(TypeScript, Node.js)*  
+* **[TidyFS](https://github.com/armoredglock/tidyfs)** *(TypeScript, Node.js)*  
   A desktop file organizer built for real-world clutter. Instead of running destructive cleanup scripts, it tracks every operation so you can roll back changes atomically with a single click.
 
-* **[Cognify LMS](https://github.com/armoredglock/cognify-lms)** &nbsp;*(React, TypeScript, Django REST Framework, PostgreSQL)*  
+* **[Cognify LMS](https://github.com/armoredglock/cognify-lms)** *(React, TypeScript, Django REST Framework, PostgreSQL)*  
   Full-stack learning management platform. Built with strict API contracts, documented system architecture, and clean separation between client state and relational data models.
 
-* **[Noto.ai](https://github.com/armoredglock/noto-ai-app)** &nbsp;*(Python, Kivy, LLaMA 3 via Ollama)*  
+* **[Noto.ai](https://github.com/armoredglock/noto-ai-app)** *(Python, Kivy, LLaMA 3 via Ollama)*  
   A private, offline desktop PDF assistant. Lets you chat with and extract summaries from documents locally so sensitive files never leave your machine.
 
-* **[Caseprint](https://github.com/armoredglock/Caseprint---Multiplayer-murder-mystery-game)** &nbsp;*(JavaScript, Node.js, Socket.io)*  
+* **[Caseprint](https://github.com/armoredglock/Caseprint---Multiplayer-murder-mystery-game)** *(JavaScript, Node.js, Socket.io)*  
   Real-time cooperative murder mystery game. Synchronizes game state, evidence dossiers, and suspect interrogation timelines across all connected players via WebSockets.
 
-* **[Multicore Concurrency Analysis](https://github.com/armoredglock/multicore-os-concurrency)** &nbsp;*(Python, C, Multiprocessing)*  
+* **[Multicore Concurrency Analysis](https://github.com/armoredglock/multicore-os-concurrency)** *(Python, C, Multiprocessing)*  
   Empirical benchmarking of race conditions, hardware lock contention, and synchronization primitives across multicore architectures.
 
-* **[SaaS Event Backend](https://github.com/armoredglock/saas-event-backend)** &nbsp;*(TypeScript, Node.js, WebSockets)*  
+* **[SaaS Event Backend](https://github.com/armoredglock/saas-event-backend)** *(TypeScript, Node.js, WebSockets)*  
   Multi-tenant event and ticketing backend built to handle tenant isolation and real-time state distribution.
 
 ---
