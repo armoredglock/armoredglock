@@ -1,74 +1,42 @@
-<div align="center">
-  <h1>Hi, I'm Sagnik Datta 👋</h1>
-  <p><strong>Full-Stack & Systems Engineer | CS Undergrad @ VIT Vellore</strong></p>
-  <p>Building high-performance desktop tools, distributed backend architectures, and local AI workflows.</p>
+# Sagnik Datta
 
-  <p>
-    <a href="https://www.linkedin.com/in/sagnik-dattta-coder/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="https://sagnikdatta2k6.github.io/WIN98-PORTFOLIO/"><img src="https://img.shields.io/badge/Portfolio-008080?style=for-the-badge&logo=windows98&logoColor=white" alt="Portfolio"/></a>
-    <a href="https://x.com/sagn1k_datta"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
-    <a href="mailto:sagnik.datta111@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  </p>
-</div>
+CS undergrad at VIT Vellore focused on backend systems, desktop tooling, and local AI workflows. Most of my work revolves around building real-time apps with WebSockets, exploring concurrency at the OS level, and running local models on consumer hardware.
+
+[LinkedIn](https://www.linkedin.com/in/sagnik-dattta-coder/) &nbsp;•&nbsp; [Win98 Portfolio](https://sagnikdatta2k6.github.io/WIN98-PORTFOLIO/) &nbsp;•&nbsp; [Twitter / X](https://x.com/sagn1k_datta) &nbsp;•&nbsp; [Email](mailto:sagnik.datta111@gmail.com)
 
 ---
 
-### 🚀 Core Engineering Focus
-- **Backend & Distributed Systems:** Event-driven architectures, WebSocket state synchronization, and multi-tenant SaaS backends.
-- **Local AI & Edge Applications:** Offline inference via Ollama / LLaMA 3, document vectorization, and lightweight desktop UIs.
-- **Concurrency & Operating Systems:** Lock contention analysis, race condition mitigation, and multicore benchmarking.
+### Projects & Systems
+
+* **[TidyFS](https://github.com/armoredglock/tidyfs)** &nbsp;*(TypeScript, Node.js)*  
+  A desktop file organizer built for real-world clutter. Instead of running destructive cleanup scripts, it tracks every operation so you can roll back changes atomically with a single click.
+
+* **[Cognify LMS](https://github.com/armoredglock/cognify-lms)** &nbsp;*(React, TypeScript, Django REST Framework, PostgreSQL)*  
+  Full-stack learning management platform. Built with strict API contracts, documented system architecture, and clean separation between client state and relational data models.
+
+* **[Noto.ai](https://github.com/armoredglock/noto-ai-app)** &nbsp;*(Python, Kivy, LLaMA 3 via Ollama)*  
+  A private, offline desktop PDF assistant. Lets you chat with and extract summaries from documents locally so sensitive files never leave your machine.
+
+* **[Caseprint](https://github.com/armoredglock/Caseprint---Multiplayer-murder-mystery-game)** &nbsp;*(JavaScript, Node.js, Socket.io)*  
+  Real-time cooperative murder mystery game. Synchronizes game state, evidence dossiers, and suspect interrogation timelines across all connected players via WebSockets.
+
+* **[Multicore Concurrency Analysis](https://github.com/armoredglock/multicore-os-concurrency)** &nbsp;*(Python, C, Multiprocessing)*  
+  Empirical benchmarking of race conditions, hardware lock contention, and synchronization primitives across multicore architectures.
+
+* **[SaaS Event Backend](https://github.com/armoredglock/saas-event-backend)** &nbsp;*(TypeScript, Node.js, WebSockets)*  
+  Multi-tenant event and ticketing backend built to handle tenant isolation and real-time state distribution.
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### Technologies
 
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | `TypeScript` • `JavaScript` • `Python` • `C / C++` • `SQL` |
-| **Backend & APIs** | `Node.js` • `Express` • `FastAPI` • `Django REST Framework` • `Socket.io` • `REST APIs` • `WebSockets` |
-| **Frontend** | `React` • `TypeScript` • `Vite` • `Tailwind CSS` • `Kivy (Desktop UI)` • `HTML5 / Modern CSS` |
-| **Databases & ORM** | `PostgreSQL` • `MongoDB` • `Prisma` • `SQLite` |
-| **Systems & AI** | `Concurrency / Multiprocessing` • `Ollama` • `LLaMA 3` • `Git / GitHub` • `Linux / Bash` • `Docker` |
+* **Languages:** TypeScript, JavaScript, Python, C/C++, SQL
+* **Backend:** Node.js, Express, Django REST Framework, FastAPI, WebSockets (Socket.io)
+* **Databases & Tools:** PostgreSQL, MongoDB, SQLite, Docker, Git, Linux
+* **Frontend & UI:** React, Vite, Tailwind CSS, Kivy (Desktop)
 
 ---
 
-### 🌟 Featured Projects
-
-#### 1. [TidyFS — Intelligent Desktop File Organizer](https://github.com/armoredglock/tidyfs)
-> *High-performance cross-platform desktop application with atomic rollback safety.*
-- **Tech:** `TypeScript` • `Electron / Node.js` • `FileSystem API`
-- Automated directory triage, obsolete installer decay, and duplicate file isolation.
-- Guarantees data integrity using **one-click atomic transaction rollbacks**.
-
-#### 2. [Cognify LMS — Full-Stack Educational Platform](https://github.com/armoredglock/cognify-lms)
-> *Production-grade Learning Management System with strict architectural separation.*
-- **Tech:** `React` • `TypeScript` • `Vite` • `Tailwind CSS` • `Django REST Framework` • `PostgreSQL`
-- Built with documented architecture specifications, strict API contracts, and normalized schema models.
-
-#### 3. [Noto.ai — Offline Local AI PDF Assistant](https://github.com/armoredglock/noto-ai-app)
-> *Private, fully offline document interrogation and summarization tool.*
-- **Tech:** `Python` • `Kivy` • `LLaMA 3` • `Ollama`
-- Enables zero-cloud document analysis with conversational Q&A and instant summarization.
-
-#### 4. [Caseprint — Real-Time Multiplayer Cooperative Game](https://github.com/armoredglock/Caseprint---Multiplayer-murder-mystery-game)
-> *Synchronized multiplayer detective game driven by live WebSockets.*
-- **Tech:** `JavaScript` • `Socket.io` • `Node.js` • `Express`
-- Manages synchronized room states, forensic evidence dossier tracking, and live interactive polling.
-
-#### 5. [SaaS Event & Ticketing Backend](https://github.com/armoredglock/saas-event-backend)
-> *Scalable multi-tenant architecture with real-time event and ticket handling.*
-- **Tech:** `TypeScript` • `Node.js` • `WebSockets` • `Multi-Tenancy`
-- Multi-tenant tenant isolation, ticket allocation, and WebSocket state broadcasts.
-
-#### 6. [Multicore OS Concurrency Benchmarks](https://github.com/armoredglock/multicore-os-concurrency)
-> *Empirical systems research on race conditions, locks, and cache coherency.*
-- **Tech:** `Python` • `C` • `Multiprocessing` • `Systems Architecture`
-- Analyzed hardware lock contention, synchronization primitives, and CPU multicore scaling characteristics.
-
----
-
-### 📊 GitHub Activity & Metrics
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=armoredglock&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Sagnik's Stats" height="150" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=armoredglock&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="150" />
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=armoredglock&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="Contribution Streak" />
+</p>
