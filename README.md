@@ -2,7 +2,7 @@
 
 CS undergrad at VIT Vellore focused on backend systems, desktop tooling, and local AI workflows. Most of my work revolves around building real-time apps with WebSockets, exploring concurrency at the OS level, and running local models on consumer hardware.
 
-[LinkedIn](https://www.linkedin.com/in/sagnik-dattta-coder/) · [Portfolio](https://sagnikdatta.netlify.app/) · [Twitter / X](https://x.com/sagn1k_datta) · [Email](mailto:sagnik.datta111@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/sagnik-dattta-coder/) &nbsp;·&nbsp; [Portfolio](https://sagnikdatta.netlify.app/) &nbsp;·&nbsp; [Twitter / X](https://x.com/sagn1k_datta) &nbsp;·&nbsp; [Email](mailto:sagnik.datta111@gmail.com)
 
 ---
 
